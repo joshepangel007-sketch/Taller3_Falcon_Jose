@@ -24,7 +24,7 @@ public class ShoppingList {
         productRemove = sc.nextLine(); 
         shoppingList.remove(productRemove);
 
-        System.out.println("Tu lista actual es de: ");
+        System.out.println("Tu lista actual es de: " + shoppingList);
 
         System.out.println("Dime el nombre de el prooducto a buscar");
         searchProduct = sc.nextLine();
